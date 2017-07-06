@@ -10,71 +10,77 @@
       <image xlink:href="../images/logo.svg" width="600px" height="825px"
     </svg>
     <h1>Curruculum Vitae</h1>
-      <h2>Nombres:</h2>
-      <h3>Erick Alexander</h3>
-      <h2>Apellidos:</h2>
-      <h3>Muñoz Morales</h3>
-      <h2>Lugar y fecha de nacimiento</h2>
-      <h3>Ecuador-Quito 20-12-1992</h3>
+        <h2>Nombres:</h2>
+        <h3>Erick Alexander</h3>
+        <h2>Apellidos:</h2>
+        <h3>Muñoz Morales</h3>
+        <h2>Lugar y fecha de nacimiento</h2>
+        <h3>Ecuador-Quito 20-12-1992</h3>
     <h1>Menu</h1>
-      <a href="../index.html">Inicio<br/></a>
-      <a href="../html/educacion.html">Educacion<br/></a>
-      <a href="../html/experiencia.html">Experiencia</a>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../html/educacion.html">Educacion</a></li>
+        <li><a href="../html/experiencia.html">Experiencia</a></li>
+      </ul>
       <h2>Educacion</h2>
       <table border=border="4">
           <thead>
               <tr>
-                  <th>Año</th>
-                  <th>Institucion</th>
-                  <th>Lugar</th>
-                  <th>¿Culmino?</th>
+                <th>Año</th>
+                <th>Institucion</th>
+                <th>Lugar</th>
+                <th>¿Culmino?</th>
               </tr>
           </thead>
-          <tr>
-              <td>1992</td>
-              <td>eloy alfaro</td>
-              <td>quito</td>
+              <tr>
+                <td>1992</td>
+                <td>eloy alfaro</td>
+                <td>quito</td>
               <td>si</td>
-          </tr>
+            </tr>
           <tr>
-              <td>2007</td>
-              <td>eloy alfaro</td>
-              <td>quito</td>
-              <td>si</td>
+                <td>2007</td>
+                <td>eloy alfaro</td>
+                <td>quito</td>
+                <td>si</td>
           </tr>
         </table>
         <form autocomplete="on" name="Mi Primer Formulario">
             <fieldset>
                 <legend><h1>Agregar Estudios</h1></legend>
                 <form action="">
-                  <p>
-              			<label for="Date">Año: </label>
-              			<br>
-              			<input type="dateyear" name="dateyear" placeholder="">
+                  <p>Año
+                    <select>
+                      <option value="volvo">1</option>
+                      <option value="saab">&</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
               		</p>
                   <p>
               			<label for="username">Institucion</label>
               			<input type="text" name="username" placeholder="" required>
               		</p>
                   <p>
-                  Lugar<textarea name="area_texto" rows="2" cols="30"></textarea>
-                  </p>
+                    Lugar<textarea name="area_texto" rows="2" cols="30"></textarea>
+                    </p>
                   <p>
-              			<label for="truee">¿Culmino?: </label>
-              			<input type="radio" name="truee"> Si
-              			<input type="radio" name="truee"> No
+                    <form action="">¿Culmino?
+                    <input type="radio" name="gender" value="si"> si
+                    <input type="radio" name="gender" value="no"> no
+                    </form>
               		</p>
-                <p>
+                  <p>
                     <input type="submit">
-                </p>
+                  </p>
             </fieldset>
-                <h2>Derechos Reservados</h2>
-                <p>
-                  <strong>Email:</strong>strick_one_20@gmail.com</br>
-                  <strong>Telefono:</strong>098328912256</br>
-                  <strong>Direccion:</strong>Ecuador-Quito</br>
-                </p>
-  </table>
-</fieldset>
+                  <h2>Derechos Reservados</h2>
+                  <p>
+                    <strong>Email:</strong>strick_one_20@gmail.com</br>
+                    <strong>Telefono:</strong>098328912256</br>
+                    <strong>Direccion:</strong>Ecuador-Quito</br>
+                  </p>
+            </table>
+        </fieldset>
   </body>
 </html>
